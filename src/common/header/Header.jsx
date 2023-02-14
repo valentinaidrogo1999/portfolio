@@ -67,12 +67,12 @@ export default function Nav(props: Props) {
      
 
    
-    <Box sx={{ display: 'flex',
+    <Box sx={{ display: 'flex'
    
     }}>
       <CssBaseline />
       <AppBar component="nav">
-        <Toolbar>
+        <Toolbar className='fondo1' >
           <IconButton
             color="inherit"
             aria-label="open drawer"

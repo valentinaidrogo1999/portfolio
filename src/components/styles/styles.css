@@ -1,0 +1,77 @@
+.avatar {
+    width: 100px !important;
+    height: 100px !important;
+}
+button.about {
+   margin: 40px auto;
+    background-color: rgb(199, 50, 94);
+    color: aliceblue;
+  
+  
+}
+.contenedor p{
+   color: #fff;
+    float: left;
+    position: relative;
+
+}
+
+.animation span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: linear-gradient(150deg, #186b6b, #f10271, #404242 ) !important;
+    background-size: 550% 430% !important;
+   
+
+    border-left: 1px solid rgb(58, 146, 161) !important;
+    animation: maquina 7s ease infinite alternate ;
+}
+@keyframes maquina{
+    from{width: 100%;}
+    to{width: 0;
+    }
+}
+button.about:hover{
+    background-color: #267883;
+}
+
+ h2{
+    text-align:center;
+    margin:0;
+    color: aliceblue;
+    
+}
+hr{
+   border-color: #267883;
+    width: 500px;
+}
+FormControlLabel{
+    font-size: 50px;
+}
+
+.html{
+    background-image: url(../../img/html.png);
+    
+}
+.css{
+    background-image: url(../../img/css.png);
+    
+ 
+    
+    
+
+}
+.js{
+    background-image: url(../../img/js.png);
+}
+.react{
+    background-image: url(../../img/react.png);
+}
+.modal{
+    background-color: #D7D4D4  !important;
+   
+    width: 45% !important;
+    border-radius: 20px;
+}
+.perfil{color: black;}

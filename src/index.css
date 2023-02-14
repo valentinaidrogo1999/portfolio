@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.body {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+ background: linear-gradient(150deg, #186b6b, #f10271, #404242 ) !important;
+ background-size: 400% 300% !important;
+ animation: BgGradient 5s ease infinite !important;
+
+
+}
+
+@keyframes BgGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
